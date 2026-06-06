@@ -1,0 +1,5 @@
+
+docker architecture.
+
+docker deamon is the main backend of the docker 
+it manages all the requests related to images/containers

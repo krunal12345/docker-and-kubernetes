@@ -1,0 +1,27 @@
+https://kubernetes.io/docs/concepts/architecture/
+
+it consist of 
+
+--control plane
+1. api server(Team Lead)
+2. scheduler(HR)
+3. controller manager(pRODUCT MANAGER)
+4. etcd (DATABASE)
+
+--worker node
+5. kubeproxy (proxy)
+6. kubelet(Team manager)
+
+api server:
+frontend of the kubernates api.  it exposes the kubernates api
+kube-apiserver is the implementation of api server/
+
+etcd.
+high availablity consistent key value data store.
+
+kubescheduler
+works on assigning node to the pod that has no node assigned.
+it does that based on the node's availablity. node affinity anti-affinity. hardware/software constraints etc.
+node workload 
+
+kuber controller manager
